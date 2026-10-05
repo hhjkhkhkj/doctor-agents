@@ -1,0 +1,10 @@
+# 装依赖：py -m pip install -r requirements.txt
+
+# 调模型 / 取向量
+requests>=2.31.0
+
+# MCP（医生端那 5 个知识库走 MCP 协议）
+fastmcp>=4.0.0
+
+# LangGraph 版才需要
+langgraph>=1.0.0

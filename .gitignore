@@ -1,0 +1,23 @@
+# ★ 密钥文件，绝不能传
+config.py
+.env
+
+# 数据库（真实项目里这里存患者对话 —— 绝对不能传）
+*.db
+对话记录.db
+
+# 生成的音频
+*.wav
+*.mp3
+最近一句.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
